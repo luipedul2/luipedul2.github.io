@@ -1,0 +1,31 @@
+<style>
+	h2{
+        }
+	h1{
+		font-family: mulish ;
+		color: #6800B3 ;
+	}
+	table{
+		font-family: oswald ;
+		border-radius: 10px ;
+		background-color: #FFFFFF ;
+		text-align: center ;
+		
+		border: 1px solid black ;
+	}
+	th {
+		background-color: #6800B3 ;
+		font-family: oswald ;
+		text-align: center ;
+		color: #F9E3FF ;
+		border: 1px solid black ;
+	}
+	td {
+		font-family: oswald ;
+		text-align: center ;
+		border: 1px solid black ;
+	}
+	body{
+		background-color: #F9E3FF ;
+	}
+</style>
