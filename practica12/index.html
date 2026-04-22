@@ -18,10 +18,9 @@
 			var num = prompt ('Ingresa la cantidad de empleados : ')
 			document.write('<table align=center width=85%>')
 			document.write('<tr><th>#ID</th><th>NOMBRE</th><th>CORREO</th></tr>')
-			
+			var nom = prompt ('Ingresa el nombre del empleado '+i+' : ')
+			var correo = prompt ('Ingresa el correo del empleado '+i+' : ')
 			while (i <= num) {
-				var nom = prompt ('Ingresa el nombre del empleado '+i+' : ')
-				var correo = prompt ('Ingresa el correo del empleado '+i+' : ')
 				document.write('<tr><td>'+i+'</td><td>'+nom+'</td><td>'+correo+'</td></tr>')
 				i = i + 1
 			}
