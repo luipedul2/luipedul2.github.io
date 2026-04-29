@@ -2,7 +2,7 @@
 <?php
 $to = "arluipedul@gmail.com";
 $subject = "Prueba de correo";
-$txt = "Esto va en el cuerpo del correo, prueba";
+$txt = "Esto va en el cuerpo del correo, prueba 1 2 3";
 $headers = "From: webmaster@example.com";
 
 mail($to,$subject,$txt,$headers);
